@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ans</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style media="screen">
+      body{
+        margin:100px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+  <div class="jumbotron">
+    <h1>Shortest Distance Between <%= art1 %> and <%= art2 %> is <%= ans %>.</h1>
+    <h3>Path ⬇️</h3>
+  </div>
+
+<% for(var i=0;i<path.length;i++){ %>
+  <p1 style="display:block;"><%= path[i] %></p1>
+<% } %>
+
+
+
+</div>
+  </body>
+</html>
